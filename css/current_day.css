@@ -1,0 +1,60 @@
+#current-day-info {
+    width: 44.5%;
+    height: 87%;
+    padding-bottom: 1vh;
+}
+
+/* responsive font and padding */
+#current-day-info #app-name-landscape {
+    font-size: 4.0vh;
+    padding: 9 0 1vh;
+    border-bottom: 1px solid;
+}
+
+#current-day-info h2 {
+    font-size: 6vh;
+    font-weight: 300;
+    margin: 0 0 3vh;
+    /* padding-top: 1vh; */
+}
+
+#current-day-info h1 {
+    font-size: 6.8vh;
+    font-weight: 600;
+    margin: 4vh 0; 
+}
+
+#current-day-info #theme-landscape { 
+    margin-top: 1.8vh;
+    display: block;
+    padding: 1.8vh 4.2vh;
+    color: #FEFDFD;
+    border: 3px solid #FEFDFD;
+    font-size: 2.4vh;
+}
+
+#current-day-info #theme-landscape:hover {
+    background-color: white;
+    opacity: 0.4; /*sort of opaque button to match theme color as it changes */
+    color: black;
+}
+
+#current-day-info #sunrise {
+    height: 1vh;
+}
+
+#current-day-info #theme-landscape-2 { 
+    margin-top: 1.8vh;
+    display: block;
+    padding: 1.8vh 4.2vh;
+    color: #FEFDFD;
+    border: 3px solid #FEFDFD;
+    font-size: 2.4vh;
+}
+
+#current-day-info #theme-landscape-2:hover {
+    background-color: white;
+    opacity: 0.4; /*sort of opaque button to match theme color as it changes */
+    color: black;
+}
+

@@ -1,0 +1,79 @@
+.popup {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48vw;
+    margin: 22vh auto 0;
+    background-color: #FEFDFD;
+    border-radius: 10px;
+}
+
+#fav-color h4 {
+    margin: 32px 0 18px;
+    font-size: calc(12px + 1.6vw); /*font size will never be below 12px. makes the font response with specific bound */
+    font-weight: 300;
+    border-bottom: 1px solid #222;
+    padding: 0 2vw 2px;
+
+}
+
+#fav-color #color-options {
+    width: 84%;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* color picker text */
+#fav-color #color-options h5 {
+    display: inline;
+    margin: 8px 0 12px;
+    font-size: calc(6px + 0.6vw);
+    font-weight: 500;
+}
+
+#fav-color #color-options .color-option {
+    margin: 0.4vw;
+    width: 5vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* color picker color preview */
+#fav-color #color-options .color-preview {
+    width: calc(16px + 1.7vw);
+    height: calc(16px + 1.7vw);
+    padding: 0;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-preview:hover {
+    opacity: 0.5;
+}
+
+.checkmark {
+    color: white;
+    font-size: 1.2vw;
+}
+
+#fav-color #update-theme-button {
+    margin: 24px 0 20px;
+    padding: 10px 26px;
+    font-size: calc(8-x + 0.6vw);
+    font-weight: 400;
+    border: 3px solid #222;
+}
+
+#fav-color #update-theme-button:hover {
+    color:white;
+    background-color: #222;
+}
+

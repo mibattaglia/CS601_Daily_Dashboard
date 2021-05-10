@@ -1,0 +1,114 @@
+@media (orientation: portrait) {
+    body {
+        flex-direction: column;
+    }
+
+    #current-day-info {
+        width: 100%;
+        height: 12vh;
+        min-height: initial;
+        padding: 1vw 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; 
+    }
+
+    #current-day-info h2 {
+        font-size: 3vh;
+    }
+
+    #current-day-info h1 {
+        font-size: 4.6vh;
+    }
+
+    /* hiding "my calendar" and the change theme button */
+    #current-day-info #app-name-landscape {
+        display: none !important;
+    }
+
+    #current-day-info #theme-landscape {
+        display: none;
+    }
+
+    #current-day-info #sunrise {
+        display: none;
+    }
+
+    .current-day-heading {
+        display: inline;
+        padding: 0;
+        margin: 0 4px;
+        font-size: 7vw;
+    }
+
+    #calendar {
+        width: 100%;
+        display: block;
+        margin-top: 3.6vh;
+    }
+
+    #calendar #app-name-portrait {
+        display: block;
+        margin: 0;
+        font-size: 3.5vh;
+    }
+
+    #calendar h4 {
+        padding: 1.2vw 0 0 .2vw;
+        font-size: 2.8vw;
+    }
+
+    #calendar h3 {
+        font-size: 3.8vw;
+        padding: 1.4vw 2vw 0.8vw;
+    }
+
+    #calendar .icon {
+        font-size: 2.9vw;
+    }
+
+    #calendar .weekday {
+        font-size: 2.5vw;
+    }
+
+    #calendar tbody td {
+        height: 9.8vw;
+        width: 9.8vw;
+        font-size: 1.6vw;
+        padding: 0.8vw;
+    }
+
+    #calendar img {
+        width: 7.4vw;
+        top: 0.7vw;
+    }
+
+    #calendar #theme-portrait {
+        display: block;
+        padding: 3vw 26vw;
+        font-size: 4vw;
+        margin-top: 2vh;
+        border: none;
+    }
+
+    #calendar #space-theme-button {
+        margin-top: 2vh;
+        display: block;
+    }
+
+    .popup {
+        width: 75%;
+    }
+
+    #fav-color #color-options .color-option{
+        margin: 0.4vw;
+        width: 12vw;
+    }
+
+    #fav-color #space-theme-button {
+        display: none;
+    }
+}
+
+
