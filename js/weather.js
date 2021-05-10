@@ -1,7 +1,7 @@
 async function getWeather(position) {
     var lat = position.coords.latitude;
     var long = position.coords.longitude;
-    var API_KEY = "9f55ea8c7f20011846b1288f2b5a6db0";
+    var API_KEY = YOUR KEY HERE;
     var weather = await fetch(`http://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&appid=${API_KEY}`);
     var sunrise = await fetch(`https://api.sunrise-sunset.org/json?lat=${lat}&lng=${long}`);
     
